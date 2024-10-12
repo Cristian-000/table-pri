@@ -16,26 +16,19 @@ thead {
 th, td {
     border: 1px solid #000;
     text-align: center;
-    padding: 8px;
+    padding: 5px;
     word-wrap: break-word;
 }
 
 th {
     background-color: #f4f4f4;
     font-weight: bold;
-    width: 400px;
+    width: 350px;
 }
 
-tbody tr:nth-child(even) {
-    background-color: #f9f9f9;
-}
-
-tbody tr:nth-child(odd) {
-    background-color: #ffffff;
-}
 
 /* Aumentar ancho de la columna "Categoría" */
-td:nth-child(1), th:nth-child(1) {
+td:nth-child(1) {
     width: 250px; /* Ajusta este valor para hacer la columna más ancha */
     height: 40px;
     text-align: left;
@@ -43,50 +36,74 @@ td:nth-child(1), th:nth-child(1) {
 }
 
 /* Colores específicos */
-td:nth-child(2), td:nth-child(3), td:nth-child(4),td:nth-child(5), .ene {
+.ene {
     background-color: #ffffd3; /* Fondo amarillo */
 }
-td:nth-child(6), td:nth-child(7), td:nth-child(8), td:nth-child(9) , .feb{
+ .feb{
     background-color: #ffeac2; /* Fondo naranja */
 }
 
-td:nth-child(10), td:nth-child(11), td:nth-child(12), td:nth-child(13) , .mar{
-    background-color: #d5fff1; /* Fondo azul claro */
+.mar{
+    background-color: #7eeec9; /* Fondo azul claro */
 }
 
-td:nth-child(14), td:nth-child(15), td:nth-child(16), td:nth-child(17) , .abr{
+.abr{
     background-color: #daecff; /* Fondo azul claro */
 }
 
-td:nth-child(18), td:nth-child(19), td:nth-child(20), td:nth-child(21), .may{
+ .may{
     background-color: #ffe2fb; /* Fondo azul claro */
 }
 
-td:nth-child(22), td:nth-child(23), td:nth-child(24), td:nth-child(25), .jun {
+ .jun {
     background-color: #ffe8be; /* Fondo azul claro */
 }
-td:nth-child(26), td:nth-child(27), td:nth-child(28), td:nth-child(29), .jul {
+.jul {
     background-color: #d7fff2; /* Fondo azul claro */
 }
-td:nth-child(30), td:nth-child(31), td:nth-child(32), td:nth-child(33), .ago {
-    background-color: #daecff; /* Fondo azul claro */
+.ago {
+    background-color: #a4d0ff; /* Fondo azul claro */
 }
-td:nth-child(34), td:nth-child(35), td:nth-child(36), td:nth-child(37), .sep {
-    background-color: #ffe0fb; /* Fondo azul claro */
+.sep {
+    background-color: #ece0ff; /* Fondo azul claro */
 }
-td:nth-child(38), td:nth-child(39), td:nth-child(40), td:nth-child(41), .oct {
-    background-color: #fffddf; /* Fondo azul claro */
+ .oct {
+    background-color: #faf5aa; /* Fondo azul claro */
 }
-td:nth-child(42), td:nth-child(43), td:nth-child(44),td:nth-child(45), .nov {
-    background-color: #ffffcd; /* Fondo amarillo */
+.nov {
+    background-color: #fad46c; /* Fondo amarillo */
 }
 
-td:nth-child(46), td:nth-child(47), td:nth-child(48), td:nth-child(49), .dic {
-    background-color: #fff6e6; /* Fondo naranja */
+ .dic {
+    background-color: #b7f88b; /* Fondo naranja */
+}
+.inv {
+    background-color: #85e079; /* Fondo naranja */
+}
+.mark {
+    background-color: #62a05a; /* Fondo naranja */
+}
+.alq {
+    background-color: #ffd0de; /* Fondo naranja */
+}
+.ute {
+    background-color: #fda3be; /* Fondo naranja */
+}
+.ose {
+    background-color: #e96d92; /* Fondo naranja */
+}
+.sue {
+    background-color: #e96d6d; /* Fondo naranja */
+}
+.agui {
+    background-color: #912525; /* Fondo naranja */
+}
+.aum {
+    background-color: #a83c3c; /* Fondo naranja */
 }
 /* Estilo para las filas con fondo gris */
 .grey-back {
-    background-color: #f4f4f4; /* Color gris claro */
+    background-color: #e9e9e9; /* Color gris claro */
 }
 
 /* Si quieres aplicar solo a celdas dentro de esa fila */
